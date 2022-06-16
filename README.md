@@ -22,8 +22,7 @@ Over the summer, AHEaD scholars can help make progress on improving equity for h
 - Compare predictions of healthcare spending from ordinary least squares regressions and machine learning methods
 - Apply fair(er) algorithms to improve the undercompensation of minoritized racial and ethnic groups
 
-## Week 1
-#### June 21 - June 24
+## Week 1 (June 21 - June 24)
 
 #### *In-person programming at Stanford*
 
