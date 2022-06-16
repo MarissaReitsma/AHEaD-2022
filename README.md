@@ -35,21 +35,32 @@ This week we will focus on developing foundational knowledge for the project. We
 **Readings** 
 
 - [International Health Care System Profiles: United States](https://www.commonwealthfund.org/international-health-policy-center/countries/united-states)
-- Ethical machine learning in health care
+- [Ethical machine learning in health care](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
 
 ## Week 3 (July 5 - July 8)
 
 #### Risk adjustment, regression, and R
 
-Our specific project focuses on improving methods used for risk adjustment to improve undercompensation of minoritized racial and ethnic groups. 
+Our specific project focuses on improving methods used for risk adjustment to improve undercompensation of minoritized racial and ethnic groups. This week we will focus on understanding existing approaches for risk adjustment. We'll also use time to prepare for starting the simulation study, including reviewing the curriculum on regression and R.
 
 **Readings** 
 
-- Risk Adjustment for Health Plan Payment
+- Risk Adjustment for Health Plan Payment (sent by email)
 
 ## Weeks 4-7 (July 11 - August 5)
 
 #### Simulation study
+
+We'll share more details as we get closer to starting the simulation study. Broadly, you will use the R programming language to: 
+
+1. Simulate an individual-level dataset for the population insured by Medicare, including demographic data, health condition indicators, and spending.
+2. Run OLS regression to predict healthcare spending.
+3. Compare OLS results to other machine learning prediction methods.
+4. Develop and apply fair(er) regression methods, and compare these to results from steps 2 & 3.
+
+**Readings**
+
+- [A Machine Learning Framework for Plan Payment Risk Adjustment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Rose%202016.pdf)
 
 
 ## Week 8 (August 8 - August 16)
