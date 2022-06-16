@@ -32,7 +32,7 @@ Over the summer, AHEaD scholars can help make progress on improving equity for h
 
 #### Introduction to health insurance payment and algorithmic fairness in healthcare
 
-This week we will focus on developing foundational knowledge for the project. We don't expect you to understand everything, and we'll plan to discuss the readings as a group on July 1.
+This week we will focus on developing foundational knowledge for the project. We don't expect you to understand everything, and we'll plan to discuss the readings each week as a group.
 
 **Readings** 
 
@@ -49,6 +49,10 @@ Our specific project focuses on improving methods used for risk adjustment to im
 **Readings** 
 
 - Risk Adjustment for Health Plan Payment (sent by email)
+
+**Regression & R**
+
+- Statistical learning sections (TBD)
 
 ## Weeks 4-7
 #### July 11 - August 5
