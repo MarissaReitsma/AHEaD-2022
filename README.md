@@ -48,6 +48,7 @@ Our specific project focuses on improving methods used for risk adjustment to im
 
 **Readings** 
 
+- [Taking Stock of Medicare Advantage: Risk Adjustment](https://www.commonwealthfund.org/blog/2022/taking-stock-medicare-advantage-risk-adjustment)
 - Risk Adjustment for Health Plan Payment (sent by email)
 
 **Regression & R**
