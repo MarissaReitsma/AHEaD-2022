@@ -23,12 +23,12 @@ Over the summer, AHEaD scholars can help make progress on improving equity for h
 - Apply fair(er) algorithms to improve the undercompensation of minoritized racial and ethnic groups
 
 ## Week 1
-####June 21 - June 24
+#### June 21 - June 24
 
 ####*In-person programming at Stanford*
 
 ## Week 2
-####June 27 - July 1
+#### June 27 - July 1
 
 #### Introduction to health insurance payment and algorithmic fairness in healthcare
 
@@ -40,7 +40,7 @@ This week we will focus on developing foundational knowledge for the project. We
 - [Ethical machine learning in health care](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
 
 ## Week 3
-####July 5 - July 8
+#### July 5 - July 8
 
 #### Risk adjustment, regression, and R
 
@@ -51,7 +51,7 @@ Our specific project focuses on improving methods used for risk adjustment to im
 - Risk Adjustment for Health Plan Payment (sent by email)
 
 ## Weeks 4-7
-####July 11 - August 5
+#### July 11 - August 5
 
 #### Simulation study
 
@@ -68,7 +68,7 @@ We'll share more details as we get closer to starting the simulation study. Broa
 
 
 ## Week 8
-####August 8 - August 16
+#### August 8 - August 16
 
 #### Wrap-up and present results
 
