@@ -1,6 +1,6 @@
 # AHEaD-2022
 
-##Improving Equity for Health Care Payments
+## Improving Equity for Health Care Payments
 
 *Faculty Mentor*: Sherri Rose, [sherrirose@stanford.edu](mailto:sherrirose@stanford.edu) </br>
 *Near-Peer Mentor*: Marissa Reitsma, [mreitsma@stanford.edu](mailto:mreitsma@stanford.edu)
