@@ -6,7 +6,7 @@
 *Near-Peer Mentor*: Marissa Reitsma, [mreitsma@stanford.edu](mailto:mreitsma@stanford.edu)
 
 ## Table of contents
-- [Week 1](#Week-1)
+- [Week 1](#week-1-june-21---june-24)
 - [Week 2](#Week-2)
 - [Week 3](#Week-3)
 - [Weeks 4-7](#Weeks-4-7)
