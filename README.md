@@ -26,7 +26,7 @@ Over the summer, AHEaD scholars will help make progress on improving equity for 
 
 ## Week 1 (June 21 - June 24)
 
-#### *In-person programming at Stanford*
+#### *In-person programming at Stanford. Welcome!! :-)*
 
 ## Week 2 (June 27 - July 1)
 
