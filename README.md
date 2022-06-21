@@ -32,7 +32,7 @@ Over the summer, AHEaD scholars will help make progress on improving equity for 
 
 #### Introduction to health insurance payment and algorithmic fairness in healthcare
 
-This week we will focus on developing foundational knowledge for the project. We don't expect you to understand everything, and we'll plan to discuss the readings each week as a group.
+This week we will focus on developing foundational knowledge for the project, including conducting a literature review. We don't expect you to understand everything, and we'll plan to discuss the readings each week as a group.
 
 **Readings** 
 
@@ -43,7 +43,7 @@ This week we will focus on developing foundational knowledge for the project. We
 
 #### Risk adjustment, regression, and R
 
-Our specific project focuses on improving methods used for risk adjustment to improve undercompensation of minoritized racial and ethnic groups. This week we will focus on understanding existing approaches for risk adjustment. We'll also use time to prepare for starting the simulation study, including reviewing the curriculum on regression and R.
+This week we will focus on understanding existing approaches for risk adjustment. We'll also use time to prepare for starting the simulation study, including reviewing the curriculum on regression and R.
 
 **Readings** 
 
