@@ -31,6 +31,10 @@ Over the summer, AHEaD scholars will help make progress on improving equity for 
 
 This week we will focus on developing foundational knowledge for the project, including conducting a literature review. We don't expect you to understand everything, and we'll plan to discuss the readings each week as a group. Think about the main take-aways of each reading rather than feeling the need to keep track of specific details. 
 
+**Meetings** 
+
+This week we will meet twice to get the project started! The first meeting will be on Monday, June 27 at 3:30p Pacific via zoom with Sherri. The second meeting is Friday, July 1 at 1:30p Pacific via zoom with Sherri and Marissa. Sherri will send calendar invitations with the zoom link.
+
 **Readings** 
 
 - [International Health Care System Profiles: United States](https://www.commonwealthfund.org/international-health-policy-center/countries/united-states)
