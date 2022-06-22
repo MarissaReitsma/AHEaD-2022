@@ -34,13 +34,13 @@ This week we will focus on developing foundational knowledge for the project, in
 **Readings** 
 
 - [International Health Care System Profiles: United States](https://www.commonwealthfund.org/international-health-policy-center/countries/united-states)
-- [Ethical machine learning in health care](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
+- [Ethical Machine Learning in Health care](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
 
 ## Weeks 3-7 (July 5 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
 
-These weeks will focus on understanding existing approaches for risk adjustment, learning about and then designing simulated data, and implementing regression and machine learning approaches in R. We will add more specifics to this section each week as we build on the prior weeks progress.
+These weeks will focus on understanding existing approaches for risk adjustment, learning about and then designing simulated data, and implementing regression and machine learning approaches in R. We will add more specifics to this section each week as we progress through the tasks.
 
 ## Week 8 (August 8 - August 16)
 
