@@ -40,18 +40,8 @@ This week we will focus on developing foundational knowledge for the project, in
 **Tasks** 
 - Conduct a Literature Review using the Nation Library of Medicine's
   [MeSH](https://www.ncbi.nlm.nih.gov/mesh) terms and
-  [PubMed](https://www.ncbi.nlm.nih.gov/mesh)
-  - Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc.
-
-**MeSH Terms**
-
-| ---------------------------------------- |
-| Health Care Costs |
-| Health Expenditures	 |
-
-
-The above are a couple suggested MeSH terms to get you started. You might also want
-to explore others and experiment to see the full power of MeSH.
+  [PubMed](https://www.ncbi.nlm.nih.gov/mesh). Try starting with the MeSH terms "Health Care Costs" and "Health Expenditures." You might also want to explore others and experiment to see the full power of MeSH.
+- Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc.
 
 ## Weeks 3-7 (July 5 - August 5)
 
