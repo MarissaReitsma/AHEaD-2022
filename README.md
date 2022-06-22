@@ -36,6 +36,23 @@ This week we will focus on developing foundational knowledge for the project, in
 - [International Health Care System Profiles: United States](https://www.commonwealthfund.org/international-health-policy-center/countries/united-states)
 - [Ethical Machine Learning in Health care](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
 
+
+**Tasks** 
+- Conduct a Literature Review using the Nation Library of Medicine's
+  [MeSH](https://www.ncbi.nlm.nih.gov/mesh) terms and
+  [PubMed](https://www.ncbi.nlm.nih.gov/mesh)
+  - Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc.
+
+**MeSH Terms**
+
+| ---------------------------------------- |
+| Health Care Costs |
+| Health Expenditures	 |
+
+
+The above are a couple suggested MeSH terms to get you started. You might also want
+to explore others and experiment to see the full power of MeSH.
+
 ## Weeks 3-7 (July 5 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
