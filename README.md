@@ -15,7 +15,7 @@
 ## Project description
 What constitutes a fair or unfair algorithm is context specific. Metrics for evaluating fairness have been developed, as have methods for prioritizing measures of fairness when building algorithms. However, algorithms are not neutral and optimization choices will reflect a specific value system and the distribution of power to make these decisions. Data also reflect societal bias, such as structural racism. Algorithmic fairness research spans many fields, including sociology, ethics, computer science, statistics, and population health. These concepts are incredibly important given the potential for and actual realized harm to marginalized groups. This summer,  students will have the opportunity to learn more about ethical pipelines for algorithms and contribute to an ongoing project in health care insurance plan payment among older adults.  Changes in payment systems can lead to tremendous gains in access to care and improved health outcomes.  The specific goal of the overall project is to improve the undercompensation of minoritized racial and ethnic groups in the Medicare risk adjustment formula. 
 
-Over the summer, AHEaD scholars will help make progress on improving equity for health care payments by working on: 
+Over the summer, AHEaD scholars will help make progress on improving equity for health care payments by working on some or all of the below: 
 
 - Review and critique existing approaches to healthcare payment in a literature review
 - Develop simulation data that reflects the population of older adults insured by Medicare
@@ -67,7 +67,7 @@ We'll share more details as we get closer to starting the simulation study. Broa
 
 **Readings**
 
-- [A Machine Learning Framework for Plan Payment Risk Adjustment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Rose%202016.pdf)
+%- [A Machine Learning Framework for Plan Payment Risk Adjustment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Rose%202016.pdf)
 
 
 ## Week 8 (August 8 - August 16)
