@@ -33,7 +33,7 @@ This week we will focus on developing foundational knowledge for the project, in
 
 **Meetings** 
 
-This week we will meet twice to get the project started! The first meeting will be on Monday, June 27 at 3:30p Pacific via zoom with Sherri. The second meeting is Friday, July 1 at 1:30p Pacific via zoom with Sherri and Marissa. Sherri will send calendar invitations with the zoom link.
+This week we will meet twice to get the project started! The first meeting will be on Tuesday, June 28 at 1p Pacific via zoom with Sherri. The second meeting is Friday, July 1 at 1:30p Pacific via zoom with Sherri and Marissa. Sherri will send calendar invitations with the zoom link.
 
 **Readings** 
 
