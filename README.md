@@ -44,7 +44,7 @@ This week we will meet twice to get the project started! The first meeting will 
 **Tasks** 
 - Conduct a literature review using the National Library of Medicine's
   [MeSH](https://www.ncbi.nlm.nih.gov/mesh) terms and
-  [PubMed](https://www.ncbi.nlm.nih.gov/mesh). Try starting with the MeSH terms "Health Care Costs" and "Health Expenditures." You might also want to explore others and experiment to see the full power of MeSH.
+  [PubMed](https://pubmed.ncbi.nlm.nih.gov/). Try starting with the MeSH terms "Health Care Costs" and "Health Expenditures." You might also want to explore others and experiment to see the full power of MeSH.
 - Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc. Summarize each in a couple sentences.
 
 ## Weeks 3-7 (July 5 - August 5)
