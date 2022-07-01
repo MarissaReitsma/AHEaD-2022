@@ -59,7 +59,7 @@ This week we will meet twice to get the project started! The first meeting will 
 **Tasks** 
 
 
-## Simulation Data Exercise
+### Simulation Data Exercise
 
 Run the code below and see the questions below. Remember you can use '?' in R to look up a help file for any function to learn more. For example, ?set.seed will give you the help file for generating random seeds.
 
