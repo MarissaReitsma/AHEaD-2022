@@ -81,7 +81,7 @@ df <-  transform(df, #add Y
 		  Y=rbinom(n, 1, 1 / (1 + exp(-(-3*W1 - 2*W2 + 2))) ) )
 ```
 1) Summarize and visualize the data frame df.
-2) Adapt the above code to add a variable W3 that is from a normal distribution to create a new data frame df2. W3 should be used to create Y in df2.
+2) Adapt the above code to add a variable W3 that is from a normal distribution to create a new data frame df2. W3, along with W1 and W2, should be used to generate Y in df2.
 3) Summarize and and visualize the data frame df2. Did you find anything unusual or troublesome about the Y variable in df2 versus df?
 4) Save your results in a Google Doc or other file type of your choice.
 
