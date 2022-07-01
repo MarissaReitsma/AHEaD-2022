@@ -51,7 +51,7 @@ This week we will meet twice to get the project started! The first meeting will 
 ## Week 3 (July 5 - July 8)
 
 **Readings** 
-- [Risk Adjustment for Health Plan Payment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
+- [Risk Adjustment for Health Plan Payment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/2018_EllisMartinsRose_RABook.pdf)
 
 
 ## Weeks 4-7 (July 11 - August 5)
