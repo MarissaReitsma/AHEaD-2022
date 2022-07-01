@@ -61,7 +61,11 @@ This week we will meet twice to get the project started! The first meeting will 
 
 #### Simulation Data Exercise
 
-Run the code below and respond to the questions in this [R Markdown template](https://raw.githubusercontent.com/MarissaReitsma/AHEaD-2022/main/Code/Week%203%20Markdown.Rmd). Remember you can use '?' in R to look up a help file for any function to learn more. For example, ?set.seed will give you the help file for generating random seeds.
+Run the code below and respond to the questions in the [Week 3 R Markdown template](https://github.com/MarissaReitsma/AHEaD-2022/tree/main/Code). Download the markdown template by right clicking the file name and choosing "save as."
+
+![image](https://user-images.githubusercontent.com/63253799/176952548-d21c7d75-d0fb-44ef-b343-f28f3be3d432.png)
+
+Remember you can use '?' in R to look up a help file for any function to learn more. For example, ?set.seed will give you the help file for generating random seeds.
 
 ```r
 ################
