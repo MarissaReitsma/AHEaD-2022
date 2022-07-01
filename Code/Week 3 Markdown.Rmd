@@ -1,0 +1,92 @@
+---
+title: "AHEaD Week 3: Introduction to R Markdown and Simulation"
+author: "<Your Name>"
+date: '2022-07-01'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+## Set global options (apply to the whole file) and load packages here
+knitr::opts_chunk$set(echo = TRUE) ## By default, will print out both code and results
+library(tidyverse)
+```
+
+## R Markdown Introduction
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Simulation Exercise
+
+Run the code below and respond to the questions. Remember you can use '?' in R to look up a help file for any function to learn more. For example, ?set.seed will give you the help file for generating random seeds.
+
+```{r simulate_data}
+# Set random seed so that data reproduces the same each time it is run
+set.seed(27)
+
+# Sample Size
+n <- 1000
+
+# Generate data
+df <- data.frame(W1=runif(n, min=0.5, max=1),
+		  W2=runif(n, min=0, max=1))
+df <-  transform(df, #add Y
+		  Y=rbinom(n, 1, 1 / (1 + exp(-(-3*W1 - 2*W2 + 2))) ) )
+```
+
+Summarize and visualize the data frame df.
+
+```{r summarize}
+## Summarize df
+
+
+```
+
+```{r visualize}
+## Visualize df
+
+
+```
+
+Adapt the above code to add a variable W3 that is from a normal distribution to create a new data frame df2. W3, along with W1 and W2, should be used to generate Y in df2.
+
+```{r add_W3}
+## Create variable W3
+
+## Create new data frame df2
+
+## Create a new Y in df2 using W1, W2, and W3
+
+```
+
+Summarize and and visualize the data frame df2. Did you find anything unusual or troublesome about the Y variable in df2 versus df?
+
+```{r summarize_df2}
+## Summarize df2
+
+
+```
+
+```{r visualize_df2}
+## Visualize df2
+
+
+```
+
+
+
