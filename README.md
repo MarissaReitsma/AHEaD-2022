@@ -46,7 +46,7 @@ This week we will meet twice to get the project started! The first meeting will 
 - Conduct a literature review using the National Library of Medicine's
   [MeSH](https://www.ncbi.nlm.nih.gov/mesh) terms and
   [PubMed](https://pubmed.ncbi.nlm.nih.gov/). Try starting with the MeSH terms "Health Care Costs" and "Health Expenditures." You might also want to explore others and experiment to see the full power of MeSH. You can access [Stanford PubMed](https://pubmed-ncbi-nlm-nih-gov.laneproxy.stanford.edu/?otool=stanford&holding=F1000) by logging in with your SUNetID.
-- Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc. Summarize each in a couple sentences.
+- Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc. Summarize each in a couple sentences. Upload your google doc [here](https://drive.google.com/drive/u/2/folders/1dl5aoBucVoZpRxfUJIgpTaaCs02RI4G4).
 
 ## Week 3 (July 5 - July 8)
 
@@ -83,7 +83,7 @@ df <-  transform(df, #add Y
 1) Summarize and visualize the data frame df.
 2) Adapt the above code to add a variable W3 that is from a normal distribution to create a new data frame df2. W3, along with W1 and W2, should be used to generate Y in df2.
 3) Summarize and and visualize the data frame df2. Did you find anything unusual or troublesome about the Y variable in df2 versus df?
-4) Save your results in a Google Doc or other file type of your choice.
+4) Save your results in an R Markdown HTML and upload it [here](https://drive.google.com/drive/u/2/folders/1dl5aoBucVoZpRxfUJIgpTaaCs02RI4G4)
 
 Let us know if you have questions in our fairness group Slack channel or by email! We're happy to help, including if the instructions above are not clear enough. We are also trying to calibrate the amount of work such that it is not too much or too little, so it's OK if you don't finish everything in your 20 hours. (Or, in the other direction, if you finish early and would like more tasks, we will gladly provide!) But please do not overwork yourselves. We want to pace the project at a good speed for you to make steady progress while still engaging in the AHEaD coursework and, of course, caring for your physical and mental well being. :)
 
