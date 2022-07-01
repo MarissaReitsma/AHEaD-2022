@@ -48,7 +48,7 @@ This week we will meet twice to get the project started! The first meeting will 
   [PubMed](https://pubmed.ncbi.nlm.nih.gov/). Try starting with the MeSH terms "Health Care Costs" and "Health Expenditures." You might also want to explore others and experiment to see the full power of MeSH. You can access [Stanford PubMed](https://pubmed-ncbi-nlm-nih-gov.laneproxy.stanford.edu/?otool=stanford&holding=F1000) by logging in with your SUNetID.
 - Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc. Summarize each in a couple sentences.
 
-## Week 2 (July 5 - July 8)
+## Week 3 (July 5 - July 8)
 
 **Readings** 
 - [Risk Adjustment for Health Plan Payment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
