@@ -8,7 +8,8 @@
 ## Table of contents
 - [Week 1](#week-1-june-21---june-24)
 - [Week 2](#week-2-june-27---july-1)
-- [Weeks 3-7](#weeks-3-7-july-5---august-5)
+- [Week 3](#week-3-july 5---july-8)
+- [Weeks 4-7](#weeks-4-7-july-11---august-5)
 - [Week 8](#week-8-august-8---august-12)
 
 ## Project description
@@ -47,7 +48,13 @@ This week we will meet twice to get the project started! The first meeting will 
   [PubMed](https://pubmed.ncbi.nlm.nih.gov/). Try starting with the MeSH terms "Health Care Costs" and "Health Expenditures." You might also want to explore others and experiment to see the full power of MeSH. You can access [Stanford PubMed](https://pubmed-ncbi-nlm-nih-gov.laneproxy.stanford.edu/?otool=stanford&holding=F1000) by logging in with your SUNetID.
 - Find 8-10 articles that study plan payment risk adjustment and put the references in a Google Doc. Summarize each in a couple sentences.
 
-## Weeks 3-7 (July 5 - August 5)
+## Week 2 (July 5 - July 8)
+
+**Readings** 
+- [Risk Adjustment for Health Plan Payment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/Chen%202021.pdf)
+
+
+## Weeks 4-7 (July 11 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
 
