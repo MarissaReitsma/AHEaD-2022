@@ -61,7 +61,7 @@ This week we will meet twice to get the project started! The first meeting will 
 
 #### Simulation Data Exercise
 
-Run the code below and respond to the questions. Remember you can use '?' in R to look up a help file for any function to learn more. For example, ?set.seed will give you the help file for generating random seeds.
+Run the code below and respond to the questions in this [R Markdown template](https://raw.githubusercontent.com/MarissaReitsma/AHEaD-2022/main/Code/Week%203%20Markdown.Rmd). Remember you can use '?' in R to look up a help file for any function to learn more. For example, ?set.seed will give you the help file for generating random seeds.
 
 ```r
 ################
