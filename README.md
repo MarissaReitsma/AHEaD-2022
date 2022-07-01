@@ -61,7 +61,7 @@ This week we will meet twice to get the project started! The first meeting will 
 
 #### Simulation Data Exercise
 
-Run the code below and respond to the questions in the [Week 3 R Markdown template](https://github.com/MarissaReitsma/AHEaD-2022/tree/main/Code). Download the markdown template by right clicking the file name and choosing "Save Link As..."
+Run the code below and respond to the questions in the [Week 3 R Markdown template](https://github.com/MarissaReitsma/AHEaD-2022/tree/main/Code). Download the markdown template by following the hyperlink to the code folder, right clicking the file name, and choosing "Save Link As..."
 
 ![image](https://user-images.githubusercontent.com/63253799/176952548-d21c7d75-d0fb-44ef-b343-f28f3be3d432.png)
 
