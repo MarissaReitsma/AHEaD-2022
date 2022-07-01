@@ -62,7 +62,7 @@ This week we will meet twice to get the project started! The first meeting will 
 
 #### Risk adjustment, simulation design, regression, and R
 
-These weeks will focus on understanding existing approaches for risk adjustment, learning about and then designing simulated data, and implementing regression and machine learning approaches in R. We will add more specifics to this section each week as we progress through the tasks.
+These weeks will focus on further understanding existing approaches for risk adjustment, learning more about and then designing simulated data, and implementing regression and machine learning approaches in R. We will add more specifics each week as we progress through the tasks.
 
 ## Week 8 (August 8 - August 12)
 
