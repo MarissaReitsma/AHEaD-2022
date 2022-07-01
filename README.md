@@ -50,9 +50,13 @@ This week we will meet twice to get the project started! The first meeting will 
 
 ## Week 3 (July 5 - July 8)
 
+#### Diving into plan payment risk adjustment and our first simulation
+
 **Readings** 
 - [Risk Adjustment for Health Plan Payment](https://github.com/MarissaReitsma/AHEaD-2022/raw/main/Readings/2018_EllisMartinsRose_RABook.pdf)
+- [The Design of Simulation Studies in Medical Statistics](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.2673) (Use the Stanford PubMed link above to access the full text!)
 
+**Tasks** 
 
 ## Weeks 4-7 (July 11 - August 5)
 
