@@ -83,7 +83,7 @@ df <-  transform(df, #add Y
 1) Summarize and visualize the data frame df.
 2) Adapt the above code to add a variable W3 that is from a normal distribution to create a new data frame df2. W3, along with W1 and W2, should be used to generate Y in df2.
 3) Summarize and and visualize the data frame df2. Did you find anything unusual or troublesome about the Y variable in df2 versus df?
-4) Save your results in an R Markdown HTML and upload it [here](https://drive.google.com/drive/u/2/folders/1dl5aoBucVoZpRxfUJIgpTaaCs02RI4G4](https://drive.google.com/drive/u/2/folders/1llPziG8XUFz9unH474nPrSAslk-JzPak).
+4) Save your results in an R Markdown HTML and upload it [here](https://drive.google.com/drive/u/2/folders/1llPziG8XUFz9unH474nPrSAslk-JzPak).
 
 Let us know if you have questions in our fairness group Slack channel or by email! We're happy to help, including if the instructions above are not clear enough. We are also trying to calibrate the amount of work such that it is not too much or too little, so it's OK if you don't finish everything in your 20 hours. (Or, in the other direction, if you finish early and would like more tasks, we will gladly provide!) But please do not overwork yourselves. We want to pace the project at a good speed for you to make steady progress while still engaging in the AHEaD coursework and, of course, caring for your physical and mental well being. :)
 
