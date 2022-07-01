@@ -58,6 +58,39 @@ This week we will meet twice to get the project started! The first meeting will 
 
 **Tasks** 
 
+
+## Simulation Data Exercise
+
+First generate and summarize some simulated data in R using the code below
+
+```r
+################
+#Simulated Data#
+################
+
+# Set random seed so that data reproduces the same each time it is run
+set.seed(27)
+
+# Sample Size
+n <- 1000
+
+# Generate data
+df2 <- data.frame(W1=runif(n, min=0.5, max=1),
+		  W2=runif(n, min=0, max=1))
+df2 <-  transform(df2, #add Y
+		  Y=rbinom(n, 1, 1 / (1 + exp(-(-3*W1 - 2*W2 + 2))) ) )
+ 
+
+1) What functions do you know to summarize and visualize the data? Use them to study the underlying relationships in the data.
+
+
+
+
+
+
+
+
+
 ## Weeks 4-7 (July 11 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
