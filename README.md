@@ -84,7 +84,7 @@ df <- data.frame(W1=runif(n, min=0.5, max=1),
 df <-  transform(df, #add Y
 		  Y=rbinom(n, 1, 1 / (1 + exp(-(-3*W1 - 2*W2 + 2))) ) )
 ```
-1) Summarize and visualize the data frame df.
+1) Summarize and visualize the data frame df. Start to learn ggplot for data visualization: https://r4ds.had.co.nz/data-visualisation.html#first-steps
 2) Adapt the above code to add a variable W3 that is from a normal distribution to create a new data frame df2. W3, along with W1 and W2, should be used to generate Y in df2.
 3) Summarize and and visualize the data frame df2. Did you find anything unusual or troublesome about the Y variable in df2 versus df?
 4) If you have additional time, try the following:
