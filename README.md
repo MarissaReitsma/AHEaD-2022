@@ -89,7 +89,7 @@ df <-  transform(df, #add Y
 3) Summarize and and visualize the data frame df2. Did you find anything unusual or troublesome about the Y variable in df2 versus df?
 4) If you have additional time, try the following:
 	+ Generate a categorical variable W4 (eg. three different age groups, colors, or countries)
-	+ Summarize your data separately by each category of W4
+	+ Summarize your data separately by each category of W4 (hint: explore `group_by` and `summarize` in dplyr)
 	+ Visualize your data separately by each category of W4 (hint: look up `facet_wrap` in ggplot2)
 	+ Compute the correlation between W1 and W2, W1 and Y, and W2 and Y. How is are these quantities related to the way that W1, W2, and Y were generated?
 5) Save your results in an R Markdown HTML and upload it [here](https://drive.google.com/drive/u/2/folders/1llPziG8XUFz9unH474nPrSAslk-JzPak).
