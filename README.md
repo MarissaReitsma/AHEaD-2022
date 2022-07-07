@@ -91,8 +91,8 @@ df <-  transform(df, #add Y
 	+ Generate a categorical variable W4 (eg. three different age groups, colors, or countries)
 	+ Summarize your data separately by each category of W4
 	+ Visualize your data separately by each category of W4 (hint: look up `facet_wrap` in ggplot2)
-5) Compute the correlation between W1 and W2, W1 and Y, and W2 and Y. How is are these quantities related to the way that W1, W2, and Y were generated?
-6) Save your results in an R Markdown HTML and upload it [here](https://drive.google.com/drive/u/2/folders/1llPziG8XUFz9unH474nPrSAslk-JzPak).
+	+ Compute the correlation between W1 and W2, W1 and Y, and W2 and Y. How is are these quantities related to the way that W1, W2, and Y were generated?
+5) Save your results in an R Markdown HTML and upload it [here](https://drive.google.com/drive/u/2/folders/1llPziG8XUFz9unH474nPrSAslk-JzPak).
 
 Let us know if you have questions in our fairness group Slack channel or by email! We're happy to help, including if the instructions above are not clear enough. We are also trying to calibrate the amount of work such that it is not too much or too little, so it's OK if you don't finish everything in your 20 hours. (Or, in the other direction, if you finish early and would like more tasks, we will gladly provide!) But please do not overwork yourselves. We want to pace the project at a good speed for you to make steady progress while still engaging in the AHEaD coursework and, of course, caring for your physical and mental well being. :)
 
