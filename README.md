@@ -101,7 +101,7 @@ Let us know if you have questions in our fairness group Slack channel or by emai
 
 #### Regression and generating realistic simulation data
 
-This week will build upon your coding work last week. We will implement regressions in the simulated dataset from week 3, exploring how different aspects of model specification and simulation sample size change coefficients. Then, we will start to build a simulation dataset for risk adjustment in the Medicare population. This will include generating many more variables (binary, categorical, and continuous) that have realistic covariance and relate to a healthcare spending outcome indicator.
+This week will build upon your coding work last week. We will implement regressions in the simulated dataset from week 3, exploring how different aspects of model specification and simulation sample size change coefficients. Then, we will start to build a simulation dataset for risk adjustment in the Medicare population. This will ultimately include generating many more variables (binary, categorical, and continuous) that have realistic covariance and relate to a healthcare spending outcome indicator.
 
 ##### Regression on Week 3 Simulated Data
 
@@ -114,6 +114,10 @@ Extend your R Markdown file from Week 3 to run a set of exploratory generalized 
 5) Explore how alternative model specifications (both which covariates are included and which response distribution is specified) change the model fit.
 
 ##### Build the Risk Adjustment Simulation Data
+
+Read more about the Medicare risk adjustment formula and data in the Supplementary Material of Zink & Rose (2021) [here](https://informatics.bmj.com/content/bmjhci/28/1/e100414.full.pdf?with-ds=yes).
+
+Select five variables to start with to generate.
 
 ## Weeks 5-7 (July 18 - August 5)
 
