@@ -9,7 +9,7 @@
 - [Week 1](#week-1-june-21---june-24)
 - [Week 2](#week-2-june-27---july-1)
 - [Week 3](#week-3-july-5---july-8)
-- [Week 4](#week-3-july-11---july-15)
+- [Week 4](#week-4-july-11---july-15)
 - [Weeks 5-7](#weeks-5-7-july-18---august-5)
 - [Week 8](#week-8-august-8---august-12)
 
