@@ -117,7 +117,7 @@ Extend your R Markdown file from Week 3 to run a set of exploratory generalized 
 
 Read more about the Medicare risk adjustment formula and data in the Supplementary Material of Zink & Rose (2021) [here](https://informatics.bmj.com/content/bmjhci/28/1/e100414.full.pdf?with-ds=yes).
 
-Select five variables to start with to generate. Rely on the information in the above Supplementary Material to guide the distributions you select.
+Select five variables to start with to generate: age, female documented sex, CCS code arthritis, CCS code cancer, CCS code diabetes. Rely on the information in the above Supplementary Material to guide the distributions you select.
 
 ## Weeks 5-7 (July 18 - August 5)
 
