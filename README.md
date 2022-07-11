@@ -9,7 +9,8 @@
 - [Week 1](#week-1-june-21---june-24)
 - [Week 2](#week-2-june-27---july-1)
 - [Week 3](#week-3-july-5---july-8)
-- [Weeks 4-7](#weeks-4-7-july-11---august-5)
+- [Week 4](#week-3-july-11---july-15)
+- [Weeks 5-7](#weeks-5-7-july-18---august-5)
 - [Week 8](#week-8-august-8---august-12)
 
 ## Project description
@@ -96,8 +97,24 @@ df <-  transform(df, #add Y
 
 Let us know if you have questions in our fairness group Slack channel or by email! We're happy to help, including if the instructions above are not clear enough. We are also trying to calibrate the amount of work such that it is not too much or too little, so it's OK if you don't finish everything in your 20 hours. (Or, in the other direction, if you finish early and would like more tasks, we will gladly provide!) But please do not overwork yourselves. We want to pace the project at a good speed for you to make steady progress while still engaging in the AHEaD coursework and, of course, caring for your physical and mental well being. :)
 
+## Week 4 (July 11 - July 15)
 
-## Weeks 4-7 (July 11 - August 5)
+#### Regression and generating realistic simulation data
+
+This week will build upon your coding work last week. We will implement regressions in the simulated dataset from week 3, exploring how different aspects of model specification and simulation sample size change coefficients. Then, we will start to build a simulation dataset for risk adjustment in the Medicare population. This will include generating many more variables (binary, categorical, and continuous) that have realistic covariance and relate to a healthcare spending outcome indicator.
+
+##### Regression on Week 3 Simulated Data
+
+Extend your R Markdown file from Week 3 to run a set of exploratory generalized linear models:
+
+1) Following the steps from the Week 3 regression curriculum, implement a logistic regression (`Y~W`) using the `glm` function and specifying an appropriate distribution for Y.
+2) How do the model coefficients relate to how the data were generated?
+3) What happens when you increase or decrease your simulation data sample size?
+4) Explore how alternative model specifications (both which covariates are included and which response distribution is specified) change the model fit.
+
+##### Build the Risk Adjustment Simulation Data
+
+## Weeks 5-7 (July 18 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
 
