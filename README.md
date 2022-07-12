@@ -109,9 +109,8 @@ Extend your R Markdown file from Week 3 to run a set of exploratory generalized 
 
 1) Following the steps from the Week 3 regression curriculum, implement a logistic regression (`Y~W`) using the `glm` function and specifying an appropriate distribution for Y.
 2) How do the model coefficients relate to how the data were generated?
-3) Discuss whether the model satisfies the four assumptions of generalized linear models (include plots if appropriate).
-4) What happens when you increase or decrease your simulation data sample size? 
-5) Explore how alternative model specifications (both which covariates are included and which response distribution is specified) change the model fit.
+3) What happens when you increase or decrease your simulation data sample size? 
+4) Explore how alternative model specifications (both which covariates are included and which response distribution is specified) change the model fit.
 
 ##### Build the Risk Adjustment Simulation Data
 
