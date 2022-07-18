@@ -127,7 +127,7 @@ Git is a tool for version control, open science, and collaboration. We will use 
 
 You can use Git entirely through your computer's terminal, but it is generally easiest to get going with a desktop client that provides a nice user interface. Start by downloading [GitHub Desktop](https://desktop.github.com/), which will also install Git on your computer. Then complete the following tasks to get started:
 
-* First, review the basics of Git
+* First, review the basics of Git (https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop, or https://www.youtube.com/watch?v=RPagOAUx2SQ may be good places to start)
 * Next, `clone` this repository to your computer
 * Finally, `commit + push` your simulation data code from last week to the `Code` folder
 
