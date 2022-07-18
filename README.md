@@ -10,7 +10,8 @@
 - [Week 2](#week-2-june-27---july-1)
 - [Week 3](#week-3-july-5---july-8)
 - [Week 4](#week-4-july-11---july-15)
-- [Weeks 5-7](#weeks-5-7-july-18---august-5)
+- [Week 5](#week-5-july-18---july-22)
+- [Weeks 6-7](#weeks-6-7-july-25---august-5)
 - [Week 8](#week-8-august-8---august-12)
 
 ## Project description
@@ -118,7 +119,19 @@ Read more about the Medicare risk adjustment formula and data in the Supplementa
 
 Select five variables to start with to generate: age, female documented sex, CCS code arthritis, CCS code cancer, CCS code diabetes. Rely on the information in the above Supplementary Material to guide the distributions you select.
 
-## Weeks 5-7 (July 18 - August 5)
+## Week 5 (July 18 - July 22)
+
+#### Git for Version Control and Collaboration
+
+Git is a tool for version control, open science, and collaboration. We will use Git to work collaboratively on code and eventually publish our code so that other researchers can better understand and replicate our work.
+
+You can use Git entirely through your computer's terminal, but it is generally easiest to get going with a desktop client that provides a nice user interface. Start by downloading [GitHub Desktop](https://desktop.github.com/), which will also install Git on your computer. Then:
+
+* First, review the basics of Git
+* Next, `clone` this repository to your computer
+* Finally, `commit + push` your simulation data code from last week to the `Code` folder
+
+## Weeks 6-7 (July 25 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
 
