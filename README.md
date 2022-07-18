@@ -125,11 +125,13 @@ Select five variables to start with to generate: age, female documented sex, CCS
 
 Git is a tool for version control, open science, and collaboration. We will use Git to work collaboratively on code and eventually publish our code so that other researchers can better understand and replicate our work.
 
-You can use Git entirely through your computer's terminal, but it is generally easiest to get going with a desktop client that provides a nice user interface. Start by downloading [GitHub Desktop](https://desktop.github.com/), which will also install Git on your computer. Then:
+You can use Git entirely through your computer's terminal, but it is generally easiest to get going with a desktop client that provides a nice user interface. Start by downloading [GitHub Desktop](https://desktop.github.com/), which will also install Git on your computer. Then complete the following tasks to get started:
 
 * First, review the basics of Git
 * Next, `clone` this repository to your computer
 * Finally, `commit + push` your simulation data code from last week to the `Code` folder
+
+Post in our slack channel if you're encountering issues with Git!
 
 ## Weeks 6-7 (July 25 - August 5)
 
