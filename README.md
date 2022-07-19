@@ -133,7 +133,7 @@ You can use Git entirely through your computer's terminal, but it is generally e
 
 Post in our slack channel if you're encountering issues with Git!
 
-##### Build the Risk Adjustment Simulation Data
+#### Build the Risk Adjustment Simulation Data
 
 Continue working on generating the five variables from last week's task if that is not complete. 
 
