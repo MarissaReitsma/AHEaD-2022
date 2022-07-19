@@ -133,6 +133,13 @@ You can use Git entirely through your computer's terminal, but it is generally e
 
 Post in our slack channel if you're encountering issues with Git!
 
+##### Build the Risk Adjustment Simulation Data
+
+Continue working on generating the five variables from last week's task if that is not complete. 
+
+Let's now start considering the totality of variables that would need to be generated for a realistic set of simulated data. The predictor variables in the risk adjustment formula focus on documented sex, age, Medicaid status, and dozens of hierarchical condition categories (HCCs). You can get an estimate of the prevalence for the HCCs from [this document](https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/reports/downloads/pope_2000_2.pdf) (starting on Page 59 in Table 3-3). There is more than one way to generate large sets of correlated variables (i.e., variables that have a relationship which each other). We have learned about one way, where we generate the variable dependent on others, such as Y from Week 3's task. We can also use new functions like rmvbin. Explore this function as a pair (see [example](https://www.rdocumentation.org/packages/bindata/versions/0.9-20/topics/rmvbin) in the R documentation) and we will also discuss it in our meetings this week! Begin generating simulated HCC variables if you are ready! Please feel free to ask for additional guidance and direction in the slack channel.
+
+
 ## Weeks 6-7 (July 25 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
