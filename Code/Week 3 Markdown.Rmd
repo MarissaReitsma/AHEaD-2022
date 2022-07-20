@@ -1,6 +1,6 @@
 ---
 title: "AHEaD Week 3: Introduction to R Markdown and Simulation"
-author: "<Your Name>"
+author: "Stephanie Perez"
 date: '2022-07-01'
 output: html_document
 ---
@@ -44,49 +44,144 @@ n <- 1000
 
 # Generate data
 df <- data.frame(W1=runif(n, min=0.5, max=1),
-		  W2=runif(n, min=0, max=1))
-df <-  transform(df, #add Y
+		  W2=runif(n, min=0, max=1)) 
+# creates a data frame (df) consisting of random deviates taken from the uniform distribution of n, ranging from from 0.5 to 1 (w1) AND 0 to 1 (w2).
+
+head(df) #tests the first 6 rows to see if this returned as desired
+
+df <-  mutate(df, #add Y
 		  Y=rbinom(n, 1, 1 / (1 + exp(-(-3*W1 - 2*W2 + 2))) ) )
+#adds the variable Y to our data frame, where Y is a random generation of the binomial distribution of 1000 with size=1 and the probability of each being 1 / (1 + exp(-(-3*W1 - 2*W2 + 2)))
+
+head(df) # testing to see if the data frame includes Y now
 ```
 
 Summarize and visualize the data frame df.
 
 ```{r summarize}
 ## Summarize df
-
-
+summary(df) #shows the summary statistics of each parameter
 ```
 
 ```{r visualize}
 ## Visualize df
-
-
+library(ggplot2)
+ggplot(data=df, aes(x=W1)) + geom_histogram(aes(x=W1), fill="red") + geom_histogram(aes(x=W2), fill="purple") + labs(x="W1 (red) and W2 (purple)")
+#visualizes df
 ```
 
 Adapt the above code to add a variable W3 that is from a normal distribution to create a new data frame df2. W3, along with W1 and W2, should be used to generate Y in df2.
 
 ```{r add_W3}
 ## Create variable W3
+W3=runif(n, min=0.75, max=1) #creates the new variable w3
 
 ## Create new data frame df2
+df2<-data.frame(W1=runif(n, min=0.5, max=1),
+		  W2=runif(n, min=0, max=1), W3=rnorm(n, mean=0, sd=1)) #adds the variable w3 to our data frame and renames it 'df2'
 
 ## Create a new Y in df2 using W1, W2, and W3
-
+df2<-mutate(df2, Y=rbinom(n, 1, 1 / (1 + exp(-(-3*W1 - 2*W2 + 2*W3))) ))
+# using the same binomial distribution with size and prob, we create the new Y variable and add it to our df2 function 
 ```
 
 Summarize and and visualize the data frame df2. Did you find anything unusual or troublesome about the Y variable in df2 versus df?
 
 ```{r summarize_df2}
 ## Summarize df2
+summary(df2)
+#shows summary statistics for the parameters w1, w2, w3, and Y
 
+head(df2) #visualizes the data frame
 
+head(df)
+head(df2)
+
+#When we visualize both data frames, I don't notice a change in Y, but I do notice that for the variable W3, there is now a possibility for those values to be negative.
 ```
 
 ```{r visualize_df2}
-## Visualize df2
+## Visualize df2 #try i both histogram and scatterplot format
 
+#ggplot(data=df2, aes(x=W1, y=W2)) + geom_point() #notes about using scatterplots
 
+ggplot(data=df2, aes(x=W3)) + geom_histogram(aes(x=W1), fill="red") + geom_histogram(aes(x=W2), fill="purple") + geom_histogram(aes(x=W3), fill="green") + labs(x="W1 (red), W2 (purple), and W3 (green)")
 ```
 
+
+## Week 4 - Regression
+
+1. Implement logistic regression (Y~W) and specify an appropriate distribution for Y
+```{r}
+set.seed(27)
+n<-100000 
+#100,000 
+df <- data.frame(W1=runif(n, min=0.5, max=1),
+		  W2=runif(n, min=0, max=1))
+df<-mutate(df, #add Y
+		  Y=rbinom(n, 1, 1 / (1 + exp(-(-3*W1 - 2*W2 + 2))) ) )
+# Y distribution should be binomial
+
+
+
+modlm<-lm(data=df, Y~W1+W2)
+modglm<- glm(data=df, Y~W1+W2, family="binomial")
+
+# logistic regression
+```
+
+
+## Build the Risk Adjustment Simulation Data
+I start by generating binomial distributions of age, female documented sex, CCS code arthritis, CCS code cancer, and CCS code diabetes based on the percentages by year in the Medicare Sample Characteristics (Figure SS2):
+
+```{r}
+n <- 1000000
+age_90up_2016 <- rbinom(n, 1, 0.049)
+age_90up_2017 <- rbinom(n, 1, 0.048)
+age_90up_2018 <- rbinom(n, 1, 0.047)
+# creates a simulation of occurrence of characteristics for risk-adjustment in Medicare insurance recipients -> Those over 90 years old.
+
+female_sex_2016 <- rbinom(n, 1, 0.552)
+female_sex_2017 <- rbinom(n, 1, 0.551)
+female_sex_2018 <- rbinom(n,1, 0.55)
+# creates a simulation of occurrence of characteristics for risk-adjustment in Medicare insurance recipients -> Those whose documented sex is female.
+
+arthritis_2016 <- rbinom(n, 1, 0.289)
+arthritis_2017 <- rbinom(n, 1, 0.301)
+arthritis_2018 <- rbinom(n, 1, 0.307)
+# creates a simulation of occurrence of characteristics for risk-adjustment in Medicare insurance recipients -> Those who have arthritis.
+
+cancer_2016 <- rbinom(n, 1, 0.33)
+cancer_2017 <- rbinom(n, 1, 0.333)
+cancer_2018 <- rbinom(n, 1, 0.339)
+# creates a simulation of occurrence of characteristics for risk-adjustment in Medicare insurance recipients -> Those who have cancer.
+
+diabetes_2016 <- rbinom(n, 1, 0.357)
+diabetes_2017 <- rbinom(n, 1, 0.372)
+diabetes_2018 <- rbinom(n, 1, 0.383)
+# creates a simulation of occurrence of characteristics for risk-adjustment in Medicare insurance recipients -> Those who have diabetes.
+```
+
+Now we create data frames of our variable characteristics by year:
+
+```{r}
+#creates a data frame for 2016 data
+data_2016 <- data.frame(age_90up_2016, female_sex_2016, arthritis_2016, cancer_2016, diabetes_2016)
+#adjusting column names
+colnames(data_2016) <- c("Ages 90+", "Female Sex", "Arthritis", "Cancer", "Diabetes")
+head(data_2016)
+
+#creates a data frame for 2017 data
+data_2017 <- data.frame(age_90up_2017, female_sex_2017, arthritis_2017, cancer_2017, diabetes_2017)
+#adjusting columns names
+colnames(data_2017) <- c("Ages 90+", "Female Sex", "Arthritis", "Cancer", "Diabetes")
+head(data_2017)
+
+#creates a data frame for 2018 data
+data_2018 <- data.frame(age_90up_2018, female_sex_2018, arthritis_2018, cancer_2018, diabetes_2018)
+#adjusting columns names
+colnames(data_2018) <- c("Ages 90+", "Female Sex", "Arthritis", "Cancer", "Diabetes")
+head(data_2018)
+```
 
 
