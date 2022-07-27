@@ -11,7 +11,8 @@
 - [Week 3](#week-3-july-5---july-8)
 - [Week 4](#week-4-july-11---july-15)
 - [Week 5](#week-5-july-18---july-22)
-- [Weeks 6-7](#weeks-6-7-july-25---august-5)
+- [Week 6](#week-6-july-25---july-29)
+- [Week 7](#week-7-august-1---august-5)
 - [Week 8](#week-8-august-8---august-12)
 
 ## Project description
@@ -139,8 +140,18 @@ Continue working on generating the five variables from last week's task if that 
 
 Let's now start considering the totality of variables that would need to be generated for a realistic set of simulated data. The predictor variables in the risk adjustment formula focus on documented sex, age, Medicaid status, and dozens of hierarchical condition categories (HCCs). You can get an estimate of the prevalence for the HCCs from [this document](https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/reports/downloads/pope_2000_2.pdf) (starting on Page 59 in Table 3-3). There is more than one way to generate large sets of correlated variables (i.e., variables that have a relationship which each other). We have learned about one way, where we generate the variable dependent on others, such as Y from Week 3's task. We can also use new functions like rmvbin. Explore this function as a pair (see [example](https://www.rdocumentation.org/packages/bindata/versions/0.9-20/topics/rmvbin) in the R documentation) and we will also discuss it in our meetings this week! Begin generating simulated HCC variables if you are ready! Please feel free to ask for additional guidance and direction in the slack channel.
 
+## Week 6 (July 25 - July 29)
 
-## Weeks 6-7 (July 25 - August 5)
+This week we will focus on wrapping up work on generating structured predictor variables for risk adjustment, including gaining experience with the `bindata` package and the `rmvbin` function. Then we will begin work on generating the outcome variable (healthcare spending). Concurently, spend time developing an abstract outline (due 7/29).
+
+* Review the [summary paper](https://epub.wu.ac.at/286/1/document.pdf) and learn to use `rmvbin`, including understanding how to capture correlation structure through pairwise probabilities (`commonprob`) vs. a binary correlation matrix (`bincorr`). Practice with the brief [tutorial script](https://github.com/MarissaReitsma/AHEaD-2022/blob/main/Code/bindata_exploration.R).
+* Finish generating code to simulate predictor variables:
+
+	1) Simulate individual-level predictors (n = 100000) for documented sex, age, Medicaid status, and HCCs without a pre-specified correlation structure.
+	2) Capture the correlation structure in the simulated data. Any correlations should be small and due to the randomness in the step 1 simulation, but this is okay because eventually we will use the code from this step on the real Medicare data that has structure.
+	3) Re-simulate individual-level data, but supplying the correlation structure captured in step 2.	
+
+## Week 7 (August 1 - August 5)
 
 #### Risk adjustment, simulation design, regression, and R
 
