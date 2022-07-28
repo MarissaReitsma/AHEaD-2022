@@ -2,7 +2,9 @@ install.packages("bindata")
 library(bindata)
 
 ## Step 1: Build the Risk Adjustment Simulation Data
-#generate binomial distributions of age, female documented sex, CCS code arthritis, CCS code cancer, and CCS code diabetes based on the percentages by year in the Medicare Sample Characteristics (Figure SS2):
+##generate binomial distributions of age, female documented sex, CCS code arthritis, CCS code cancer, and CCS code diabetes based on the percentages by year in the Medicare Sample Characteristics (Figure SS2):
+##data of binomal distribution taken form Table 3-3:https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/reports/downloads/pope_2000_2.pdf
+
 n <- 1000000
 set.seed(600)
 
