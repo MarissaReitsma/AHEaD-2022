@@ -18,15 +18,15 @@ age_70_79_2016 <- rbinom(n,1,0.451)
 age_80_89_2016 <-rbinom(n,1,0.221)
 age_90up_2016 <- rbinom(n, 1, 0.049)
 hypertention <- rbinom (n, 1, 457915/1394701)
-coronary <- rbinom (n, 1, 169807/1394701)
+coronary_Atherosclerosis<- rbinom (n, 1, 169807/1394701)
 musculoskeletal_issues <- rbinom(n, 1, 376220/1394701)
 symptoms_of_abnormality <- rbinom(n, 1, 517269/1394701)
 Endocronic_metabolic_nutritional_disorders <- rbinom(n, 1, 340288/1394701)
 
 
 #create data frame of our 2016 variable characteristics:
-df <- data.frame(female_sex_2016, arthritis_2016, cancer_2016, diabetes_2016, age_65_69_2016, age_70_79_2016, age_80_89_2016, age_90up_2016, hypertention, coronary, musculoskeletal_issues, symptoms_of_abnormality, Endocronic_metabolic_nutritional_disorders)
-colnames(df) <- c("Female Sex", "Arthritis", "Cancer", "Diabetes", "Ages 65-69", "Ages 70-79", "Ages 80-89", "Ages 90+", "Hypertension", "Coronary", "Muscoskeleton", "Abnormality", "EMN Disorders")
+df <- data.frame(female_sex_2016, arthritis_2016, cancer_2016, diabetes_2016, age_65_69_2016, age_70_79_2016, age_80_89_2016, age_90up_2016, hypertention, coronary_Atherosclerosis, musculoskeletal_issues, symptoms_of_abnormality, Endocronic_metabolic_nutritional_disorders)
+colnames(df) <- c("Female Sex", "Arthritis", "Cancer", "Diabetes", "Ages 65-69", "Ages 70-79", "Ages 80-89", "Ages 90+", "Hypertension", "Coronary Atherosclerosis/Other Chronic Ischemic Heart Disease", "Other Musculoskeletal and Connective Tissue Disorders", "Major Symptoms_Abnormalities", "EMN Disorders")
 View(df)
 
 ## Step 2: Create the conditional probability matrix, common probability matrix, and binary correlation matrix.
