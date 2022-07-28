@@ -1,0 +1,45 @@
+install.packages("bindata")
+library(bindata)
+
+## Step 1: Build the Risk Adjustment Simulation Data
+#generate binomial distributions of age, female documented sex, CCS code arthritis, CCS code cancer, and CCS code diabetes based on the percentages by year in the Medicare Sample Characteristics (Figure SS2):
+n <- 1000000
+age_90up_2016 <- rbinom(n, 1, 0.049)
+female_sex_2016 <- rbinom(n, 1, 0.552)
+arthritis_2016 <- rbinom(n, 1, 0.289)
+cancer_2016 <- rbinom(n, 1, 0.33)
+diabetes_2016 <- rbinom(n, 1, 0.357)
+
+#create data frame of our 2016 variable characteristics:
+data_2016 <- data.frame(age_90up_2016, female_sex_2016, arthritis_2016, cancer_2016, diabetes_2016)
+colnames(data_2016) <- c("Ages 90+", "Female Sex", "Arthritis", "Cancer", "Diabetes")
+View(data_2016)
+
+## Step 2: Create the conditional probability matrix, common probability matrix, and binary correlation matrix.
+#find marginal probabilities
+marg_probs2016 <- colMeans(data_2016)
+marg_probs2016 #they match probabilities we used to construct the dataframes!
+
+#create conditional prob matrix
+cond_mat2016 <- condprob(data_2016)
+cond_mat2016
+
+#compute common probability matrix
+com_prob_mat2016 <- cond_mat2016*marg_probs2016
+com_prob_mat2016
+
+#compute binary correlation matrix
+cor_mat2016 <- cor(data_2016, method = "pearson")
+cor_mat2016
+
+## Step 3: Extract Correlation Structure
+#Testing out the function using common probability argument
+set.seed(562)
+commtest <- rmvbin(n, margprob=marg_probs2016, commonprob=com_prob_mat2016)
+#Testing out the function using the binary correlation argument
+set.seed(562)
+bincorrtest <- rmvbin(n, margprob = marg_probs2016, bincorr = cor_mat2016)
+
+#Do these two tests yield similar results/are the structures similar?
+all.equal(commtest, bincorrtest)
+#TRUE
