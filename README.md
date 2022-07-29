@@ -155,7 +155,11 @@ This week we will focus on wrapping up work on generating structured predictor v
 
 #### Risk adjustment, simulation design, regression, and R
 
-These weeks will focus on further understanding existing approaches for risk adjustment, learning more about and then designing simulated data, and implementing regression and machine learning approaches in R. We will add more specifics each week as we progress through the tasks.
+Using the simulated data (including demographics, HCCs, and the healthcare spending outcome), evaluate different approaches to predict healthcare spending. Begin with a linear regression as a baseline, and compare this to penalized regression, random forest, or other approaches. Assess performance using 10-fold cross validation, computing mean squared error and R^2.
+
+* Consider what happens if you reduce the number of predictors included. Are there benefits to this?
+* Does performance vary across different demographic groups?
+* Which approach would you recommend to CMS, and why?
 
 ## Week 8 (August 8 - August 12)
 
