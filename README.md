@@ -155,11 +155,49 @@ This week we will focus on wrapping up work on generating structured predictor v
 
 #### Risk adjustment, simulation design, regression, and R
 
-Using the simulated data (including demographics, HCCs, and the healthcare spending outcome), evaluate different approaches to predict healthcare spending. Begin with a linear regression as a baseline, and compare this to penalized regression, random forest, or other approaches. Assess performance using 10-fold cross validation, computing mean squared error and R^2.
+Using the simulated data (including demographics, HCCs, and the healthcare spending outcome), evaluate different approaches to predict healthcare spending. Start with a linear regression. Recall the code from the regression lectures that you can modify (on canvas "AHEaDRegressonDemo.R"). After implementing the regression, continue to implementing an ensemble of algorithms, including machine learning algorithms and a linear regression. There is sample ensembling code using the SuperLearner package in the "AHEaDMLDemo.R" file on canvas that is also duplicated below. The sample code implements a linear regression, randomForest, and penalized regression (lasso). The algorithms the SuperLearner considers is in the line of code for SL.library. Compare and assess performance using 10-fold cross validation (this is built into the SuperLearner package), computing mean squared error and R^2.
 
+If you have time:
 * Consider what happens if you reduce the number of predictors included. Are there benefits to this?
+* Change the SL.library to include one more algorithm. How does performance change, if at all?
 * Does performance vary across different demographic groups?
 * Which approach would you recommend to CMS, and why?
+
+```r
+library(SuperLearner)
+
+set.seed(27);n<-500
+data <- data.frame(W1=runif(n, min = .5, max = 1),
+W2=runif(n, min = 0, max = 1),
+W3=runif(n, min = .25, max = .75),
+W4=runif(n, min = 0, max = 1))
+data <- transform(data, #add W5 dependent on W2, W3
+W5=rbinom(n, 1, 1/(1+exp(1.5*W2-W3))))
+data <- transform(data, #add Y
+Y=rbinom(n, 1,1/(1+exp(-(-.2*W5-2*W1+4*W5*W1-1.5*W2+sin(W4))))))
+
+barplot(colMeans(data))
+
+#Specify a library of algorithms
+SL.library <- c("SL.glm", "SL.randomForest", "SL.glmnet")
+
+#Run the super learner to obtain final predicted values for the super learner
+#as well as CV risk for algorithms in the library
+fit.data.SL<-SuperLearner(Y=data[,6],X=data[,1:5],
+	SL.library=SL.library, family=binomial(),
+	method="method.NNLS", verbose=TRUE)
+
+#CV risks for algorithms in the library
+fit.data.SL
+
+#Run the cross-validated super learner to obtain its CV risk
+fitSL.data.CV <- CV.SuperLearner(Y=data[,6],X=data[,1:5], V=10,
+	SL.library=SL.library, verbose = TRUE,
+	method = "method.NNLS", family = binomial())
+
+#CV risk for super learner
+mean((data[,6]-fitSL.data.CV$SL.predict)^2)
+```
 
 ## Week 8 (August 8 - August 12)
 
