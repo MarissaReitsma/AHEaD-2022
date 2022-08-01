@@ -164,6 +164,10 @@ If you have time:
 * Which approach would you recommend to CMS, and why?
 
 ```r
+##################################################################
+##Sample ENSEMBLING Code!                                       ##
+##Take a weighted average of multiple algorithms                ##
+##################################################################
 library(SuperLearner)
 
 set.seed(27);n<-500
